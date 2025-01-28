@@ -1,9 +1,9 @@
+import Header from "./header/header";
+
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <h1>Testing out </h1>
-      </header>
+      <Header />
     </div>
   );
 }
