@@ -1,0 +1,262 @@
+nav {
+    background-color: #aab6c4 !important;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin-bottom: 110px;
+}
+
+div.main-container {
+    margin-top: 120px;
+}
+
+.navbar-brand img {
+    max-width: 100%;
+    height: auto;
+}
+
+.headingTop h1 {
+    font-size: 2.5rem;
+}
+
+
+
+.navbar-nav {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.nav-item img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 5px solid;
+}
+
+.nav-item div {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.spinner-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #adadad;
+    position: fixed;
+    width: 100%;
+}
+
+/* Spinner wrapper */
+.spinner {
+    position: relative;
+    width: 150px;
+    /* Spinner size */
+    height: 150px;
+}
+
+.spinner-border {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 5px solid transparent;
+    border-top: 5px solid black;
+    border-radius: 50%;
+    animation: spin 2s linear infinite;
+}
+
+/* Image in the middle */
+.spinner img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    animation: blink 1s infinite;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+/* Blinking animation */
+@keyframes blink {
+
+    0%,
+    100% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0;
+    }
+}
+
+.profile-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+div.heading {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+div.profile-body {
+    width: 90%;
+}
+
+div.profile-body>div.profile-picture>img {
+    width: 170px;
+    height: 170px;
+}
+
+div.profile-picture {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: end;
+}
+
+div.profile-body>div.profile-picture>img {
+    border: 5px solid;
+    border-radius: 10px;
+}
+
+div.profile {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+div.profile>div {
+    display: flex;
+    flex-direction: row;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+div.profile>div>h4 {
+    font-size: larger;
+    font-family: "Parkinsans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bolder;
+    font-style: normal;
+
+}
+
+div.profile>div>h4.profile-heading {
+    font-weight: 400;
+}
+
+@media (max-width: 768px) {
+    .headingTop h1 {
+        font-size: 1rem;
+    }
+
+    .navbar-brand img {
+        max-width: 50px;
+        height: auto;
+    }
+
+    div.main-container {
+        margin-top: 80px;
+    }
+
+    div.profile-body>div.profile-picture>img {
+        width: 150px;
+        height: 150px;
+    }
+}
+
+@media (max-width: 426px) {
+    .headingTop h1 {
+        font-size: 15px;
+    }
+
+    div.profile-body>div.profile-picture>img {
+        width: 100px;
+        height: 100px;
+    }
+
+    div.profile>div>h4 {
+        font-size: smaller;
+        font-family: "Parkinsans", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: bolder;
+        font-style: normal
+    }
+}
+
+@media (max-width: 376px) {
+    .headingTop h1 {
+        font-size: 12px;
+    }
+
+    a.navbar-brand {
+        margin: 0 !important;
+    }
+}
+
+@media (max-width: 321px) {
+    .headingTop h1 {
+        font-size: 12px;
+    }
+}
+
+footer {
+    background-color: black;
+    padding: 1%;
+    width: 100%;
+    color: white;
+    font-size: smaller;
+}
+
+div.footer {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Inter', sans-serif;
+}
+
+div.footer>div {
+    display: flex;
+    width: 100%;
+}
+
+div.footer>div>div {
+    margin-left: 20px;
+}
+
+
+div.footer>div p {
+    margin-bottom: 0.2rem;
+}
+
+div.footer>.date {
+    font-size: 20px;
+    font-family: 'Inter', sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bolder;
+    font-style: normal;
+}
