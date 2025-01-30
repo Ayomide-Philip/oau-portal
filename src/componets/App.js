@@ -1,4 +1,5 @@
-import Header from "./header/header";
+import React from "react";
+import Header from "./header/header.jsx";
 
 function App() {
   return (
