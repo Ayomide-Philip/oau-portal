@@ -1,6 +1,7 @@
 import React from "react";
 import schoolLogo from "./images/oaulogo.png";
 import Link from "./link";
+import Menubutton from "./menubutton";
 function Header() {
   return (
     <nav className="navbar fixed-top" style={{ backgroundColor: "#aab6c4" }}>
@@ -15,16 +16,7 @@ function Header() {
           />
         </a>
         <h5>OAU Student Information Portal</h5>
-        <button
-          className="navbar-toggler"
-          type="button"
-          data-bs-toggle="offcanvas"
-          data-bs-target="#offcanvasNavbar"
-          aria-controls="offcanvasNavbar"
-          aria-label="Toggle navigation"
-        >
-          <span className="navbar-toggler-icon"></span>
-        </button>
+        <Menubutton />
         <div
           className="offcanvas offcanvas-end"
           tabindex="-1"
@@ -60,38 +52,6 @@ function Header() {
               />
 
               <Link className="nav-link" url="./#" text="Teaching Assignment" />
-
-              <li className="nav-item dropdown">
-                <a
-                  className="nav-link dropdown-toggle"
-                  href="./#"
-                  role="button"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
-                >
-                  Dropdown
-                </a>
-                <ul className="dropdown-menu">
-                  <li>
-                    <a className="dropdown-item" href="./#">
-                      Action
-                    </a>
-                  </li>
-                  <li>
-                    <a className="dropdown-item" href="./#">
-                      Another action
-                    </a>
-                  </li>
-                  <li>
-                    <hr className="dropdown-divider" />
-                  </li>
-                  <li>
-                    <a className="dropdown-item" href="./#">
-                      Something else here
-                    </a>
-                  </li>
-                </ul>
-              </li>
             </ul>
           </div>
         </div>
