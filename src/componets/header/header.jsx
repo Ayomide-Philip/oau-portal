@@ -1,12 +1,10 @@
 import React from "react";
 import schoolLogo from "./images/oaulogo.png";
-import navbarBrand from "./navbarBrand";
 
 function Header() {
   return (
     <nav class="navbar fixed-top" style={{ backgroundColor: "#aab6c4" }}>
       <div class="container-fluid">
-        <navbarBrand link="./#" alt="Logo" width="100" height="200" />
         <a class="navbar-brand" href="./#">
           <img
             src={schoolLogo}
