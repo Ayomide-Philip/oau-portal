@@ -57,24 +57,32 @@ function OnlineScreening() {
           </a>
           <ul className="dropdown-menu">
             <li>
-              <a className="dropdown-item" href="./#">
-                OAU Road Map
-              </a>
+              <Link
+                className="dropdown-item"
+                url="./#"
+                text="   OAU Road Map"
+              />
             </li>
             <li>
-              <a className="dropdown-item" href="./#">
-                University Examination Regulations
-              </a>
+              <Link
+                className="dropdown-item"
+                url="./#"
+                text="University Examination Regulations"
+              />
             </li>
             <li>
-              <a className="dropdown-item" href="./#">
-                Library Information
-              </a>
+              <Link
+                className="dropdown-item"
+                url="./#"
+                text="  Library Information"
+              />
             </li>
             <li>
-              <a className="dropdown-item" href="./#">
-                Sport Regulations
-              </a>
+              <Link
+                className="dropdown-item"
+                url="./#"
+                text="  Sport Regulations"
+              />
             </li>
           </ul>
         </li>
