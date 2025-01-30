@@ -1,7 +1,7 @@
 import React from "react";
 import profile from "./images/profile-svgrepo-com.svg";
 import List from "./lists";
-
+import PaymentMethodDropdown from "./paymentMethodDropdown";
 function Offcanvas() {
   const handleNestedDropdownClick = (event) => {
     event.stopPropagation(); // Prevents the parent dropdown from closing
@@ -54,34 +54,7 @@ function Offcanvas() {
             text="Teaching Assignment"
           />
 
-          <li className="nav-item dropdown">
-            <a
-              className="nav-link dropdown-toggle"
-              href="./#"
-              role="button"
-              data-bs-toggle="dropdown"
-              aria-expanded="false"
-            >
-              Payment Activities
-            </a>
-            <ul className="dropdown-menu">
-              <li>
-                <a className="dropdown-item" href="./#">
-                  Payment Via Remita
-                </a>
-              </li>
-              <li>
-                <a className="dropdown-item" href="./#">
-                  View Payment Status
-                </a>
-              </li>
-              <li>
-                <a className="dropdown-item" href="./#">
-                  Download Payment Slip from Cash Office
-                </a>
-              </li>
-            </ul>
-          </li>
+          <PaymentMethodDropdown />
 
           <List
             listClassName="nav-item"
@@ -345,7 +318,6 @@ function Offcanvas() {
             url="./#"
             text="Sign Out"
           />
-
         </ul>
       </div>
     </div>
