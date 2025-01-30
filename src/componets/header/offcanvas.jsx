@@ -177,36 +177,48 @@ function Offcanvas() {
             text="  Activate Late Registration Payment"
           />
 
-          <li className="nav-item">
-            <a className="nav-link " href="./#">
-              Update Biodata Information
-            </a>
-          </li>
-          <li className="nav-item">
-            <a className="nav-link" href="./#">
-              Register Courses
-            </a>
-          </li>
-          <li className="nav-item">
-            <a className="nav-link" href="./#">
-              Complete Health Centre Form
-            </a>
-          </li>
-          <li className="nav-item">
-            <a className="nav-link " href="./#">
-              View Semester Raw Score
-            </a>
-          </li>
-          <li className="nav-item">
-            <a className="nav-link" href="./#">
-              Check Results
-            </a>
-          </li>
-          <li className="nav-item">
-            <a className="nav-link " href="./#">
-              Check Messages
-            </a>
-          </li>
+          <List
+            listClassName="nav-item"
+            linkClassName="nav-link"
+            url="./#"
+            text="Update Biodata Information"
+          />
+
+          <List
+            listClassName="nav-item"
+            linkClassName="nav-link"
+            url="./#"
+            text="Register Courses"
+          />
+
+          <List
+            listClassName="nav-item"
+            linkClassName="nav-link"
+            url="./#"
+            text=" Complete Health Centre Form"
+          />
+
+          <List
+            listClassName="nav-item"
+            linkClassName="nav-link"
+            url="./#"
+            text="View Semester Raw Score"
+          />
+
+          <List
+            listClassName="nav-item"
+            linkClassName="nav-link"
+            url="./#"
+            text="Check Results"
+          />
+
+          <List
+            listClassName="nav-item"
+            linkClassName="nav-link"
+            url="./#"
+            text="Check Messages"
+          />
+
           <li className="nav-item dropdown">
             <a
               className="nav-link dropdown-toggle"
@@ -283,11 +295,14 @@ function Offcanvas() {
               </li>
             </ul>
           </li>
-          <li className="nav-item">
-            <a className="nav-link " href="./#">
-              Print ICT Certificate
-            </a>
-          </li>
+
+          <List
+            listClassName="nav-item"
+            linkClassName="nav-link"
+            url="./#"
+            text="Print ICT Certificate"
+          />
+
           <li className="nav-item dropdown">
             <a
               className="nav-link dropdown-toggle"
@@ -309,21 +324,28 @@ function Offcanvas() {
               </li>
             </ul>
           </li>
-          <li className="nav-item">
-            <a className="nav-link " href="./#">
-              Contact Councellor
-            </a>
-          </li>
-          <li className="nav-item">
-            <a className="nav-link " href="./#">
-              Change Password
-            </a>
-          </li>
-          <li className="nav-item">
-            <a className="nav-link " href="./#">
-              Sign Out
-            </a>
-          </li>
+
+          <List
+            listClassName="nav-item"
+            linkClassName="nav-link"
+            url="./#"
+            text="Contact Councellor"
+          />
+
+          <List
+            listClassName="nav-item"
+            linkClassName="nav-link"
+            url="./#"
+            text="Change Password"
+          />
+
+          <List
+            listClassName="nav-item"
+            linkClassName="nav-link"
+            url="./#"
+            text="Sign Out"
+          />
+
         </ul>
       </div>
     </div>
