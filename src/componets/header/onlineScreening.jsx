@@ -1,5 +1,5 @@
 import React from "react";
-
+import Link from "./link";
 const handleNestedDropdownClick = (event) => {
   event.stopPropagation(); // Prevents the parent dropdown from closing
 };
@@ -18,29 +18,31 @@ function OnlineScreening() {
       </a>
       <ul className="dropdown-menu">
         <li>
-          <a className="dropdown-item" href="./#">
-            Upload Picture
-          </a>
+          <Link className="dropdown-item" url="./#" text=" Upload Picture" />
         </li>
         <li>
-          <a className="dropdown-item" href="./#">
-            Upload Signature
-          </a>
+          <Link className="dropdown-item" url="./#" text=" Upload Signature" />
         </li>
         <li>
-          <a className="dropdown-item" href="./#">
-            Verification Of Particulars
-          </a>
+          <Link
+            className="dropdown-item"
+            url="./#"
+            text="Verification Of Particulars"
+          />
         </li>
         <li>
-          <a className="dropdown-item" href="./#">
-            Load Certificate Form
-          </a>
+          <Link
+            className="dropdown-item"
+            url="./#"
+            text="Load Certificate Form"
+          />
         </li>
         <li>
-          <a className="dropdown-item" href="./#">
-            Upload Scanned Certificate
-          </a>
+          <Link
+            className="dropdown-item"
+            url="./#"
+            text=" Upload Scanned Certificate"
+          />
         </li>
         <li className="dropdown-item nav-item dropdown">
           <a
