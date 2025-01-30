@@ -50,14 +50,17 @@ function Header() {
                   <h5>Lorem, ipsum dolor.</h5>
                 </div>
               </li>
-              <li className="nav-item">
-                <Link className="nav-link active" url="./#" text="Home" />
-              </li>
-              <li className="nav-item">
-                <a className="nav-link" href="./#">
-                  Link
-                </a>
-              </li>
+
+              <Link className="nav-link active" url="./#" text="Profile Page" />
+
+              <Link
+                className="nav-link"
+                url="./#"
+                text="Health Center Registration"
+              />
+
+              <Link className="nav-link" url="./#" text="Teaching Assignment" />
+
               <li className="nav-item dropdown">
                 <a
                   className="nav-link dropdown-toggle"
