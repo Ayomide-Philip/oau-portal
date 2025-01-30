@@ -11,11 +11,14 @@ function Header() {
             src={schoolLogo}
             alt="Logo"
             width="100"
-            height="200"
+            height="100"
             className="d-inline-block align-text-top"
           />
         </a>
-        <h5>OAU Student Information Portal</h5>
+        <div className="headingTop">
+          <h1 className="display-6">OAU Student Information Portal</h1>
+        </div>
+
         <Menubutton />
         <Offcanvas />
       </div>
