@@ -1,5 +1,5 @@
 import React from "react";
-import schoolLogo from "./images/oaulogo.png";
+import profile from "./images/profile-svgrepo-com.svg";
 import List from "./lists";
 
 function Offcanvas() {
@@ -28,7 +28,7 @@ function Offcanvas() {
         <ul className="navbar-nav justify-content-end flex-grow-1 pe-3">
           <li className="nav-item">
             <div>
-              <img src={schoolLogo} alt="person-image" />
+              <img src={profile} alt="person-image" />
               <h5>Lorem, ipsum dolor.</h5>
             </div>
           </li>
