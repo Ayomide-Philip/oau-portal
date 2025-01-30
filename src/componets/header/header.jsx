@@ -1,11 +1,11 @@
 import React from "react";
 import schoolLogo from "./images/oaulogo.png";
-
+import Link from "./link";
 function Header() {
   return (
-    <nav class="navbar fixed-top" style={{ backgroundColor: "#aab6c4" }}>
-      <div class="container-fluid">
-        <a class="navbar-brand" href="./#">
+    <nav className="navbar fixed-top" style={{ backgroundColor: "#aab6c4" }}>
+      <div className="container-fluid">
+        <a className="navbar-brand" href="./#">
           <img
             src={schoolLogo}
             alt="Logo"
@@ -16,53 +16,51 @@ function Header() {
         </a>
         <h5>OAU Student Information Portal</h5>
         <button
-          class="navbar-toggler"
+          className="navbar-toggler"
           type="button"
           data-bs-toggle="offcanvas"
           data-bs-target="#offcanvasNavbar"
           aria-controls="offcanvasNavbar"
           aria-label="Toggle navigation"
         >
-          <span class="navbar-toggler-icon"></span>
+          <span className="navbar-toggler-icon"></span>
         </button>
         <div
-          class="offcanvas offcanvas-end"
+          className="offcanvas offcanvas-end"
           tabindex="-1"
           id="offcanvasNavbar"
           aria-labelledby="offcanvasNavbarLabel"
         >
-          <div class="offcanvas-header">
-            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">
+          <div className="offcanvas-header">
+            <h5 className="offcanvas-title" id="offcanvasNavbarLabel">
               Profile Menu
             </h5>
             <button
               type="button"
-              class="btn-close"
+              className="btn-close"
               data-bs-dismiss="offcanvas"
               aria-label="Close"
             ></button>
           </div>
-          <div class="offcanvas-body">
-            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-              <li class="nav-item">
+          <div className="offcanvas-body">
+            <ul className="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li className="nav-item">
                 <div>
                   <img src={schoolLogo} alt="person-image" />
                   <h5>Lorem, ipsum dolor.</h5>
                 </div>
               </li>
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="./#">
-                  Home
-                </a>
+              <li className="nav-item">
+                <Link className="nav-link active" url="./#" text="Home" />
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./#">
+              <li className="nav-item">
+                <a className="nav-link" href="./#">
                   Link
                 </a>
               </li>
-              <li class="nav-item dropdown">
+              <li className="nav-item dropdown">
                 <a
-                  class="nav-link dropdown-toggle"
+                  className="nav-link dropdown-toggle"
                   href="./#"
                   role="button"
                   data-bs-toggle="dropdown"
@@ -70,22 +68,22 @@ function Header() {
                 >
                   Dropdown
                 </a>
-                <ul class="dropdown-menu">
+                <ul className="dropdown-menu">
                   <li>
-                    <a class="dropdown-item" href="./#">
+                    <a className="dropdown-item" href="./#">
                       Action
                     </a>
                   </li>
                   <li>
-                    <a class="dropdown-item" href="./#">
+                    <a className="dropdown-item" href="./#">
                       Another action
                     </a>
                   </li>
                   <li>
-                    <hr class="dropdown-divider" />
+                    <hr className="dropdown-divider" />
                   </li>
                   <li>
-                    <a class="dropdown-item" href="./#">
+                    <a className="dropdown-item" href="./#">
                       Something else here
                     </a>
                   </li>
