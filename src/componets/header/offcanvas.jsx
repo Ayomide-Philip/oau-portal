@@ -1,5 +1,4 @@
 import React from "react";
-import profile from "./images/profile-svgrepo-com.svg";
 import List from "./lists";
 import PaymentMethodDropdown from "./paymentMethodDropdown";
 import OnlineScreening from "./onlineScreening";
@@ -30,7 +29,7 @@ function Offcanvas() {
         <ul className="navbar-nav justify-content-end flex-grow-1 pe-3">
           <li className="nav-item">
             <div>
-              <img src={profile} alt="person-image" />
+              <img src="/images/profile-svgrepo-com.svg" alt="person-image" />
               <h5>Lorem, ipsum dolor.</h5>
             </div>
           </li>
