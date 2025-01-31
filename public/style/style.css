@@ -138,7 +138,7 @@ div.profile-picture {
     align-items: end;
 }
 
-div.profile-body>div.profile-picture>img {
+.profile-picture {
     border: 5px solid;
     border-radius: 10px;
 }
