@@ -21,25 +21,32 @@ function ReportsDropdown() {
           />
         </li>
         <li>
-        <Link className="dropdown-item" url="./#" text=" Accomdation Aggrement Form" />
-          <a className="dropdown-item" href="./#">
-           
-          </a>
+          <Link
+            className="dropdown-item"
+            url="./#"
+            text=" Accomdation Aggrement Form"
+          />
         </li>
         <li>
-          <a className="dropdown-item" href="./#">
-            BedSpace Clerance
-          </a>
+          <Link
+            className="dropdown-item"
+            url="./#"
+            text="  BedSpace Clerance"
+          />
         </li>
         <li>
-          <a className="dropdown-item" href="./#">
-            Course Registration
-          </a>
+          <Link
+            className="dropdown-item"
+            url="./#"
+            text=" Course Registration"
+          />
         </li>
         <li>
-          <a className="dropdown-item" href="./#">
-            Clearance Certificate
-          </a>
+          <Link
+            className="dropdown-item"
+            url="./#"
+            text="Clearance Certificate"
+          />
         </li>
       </ul>
     </li>
