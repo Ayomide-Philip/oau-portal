@@ -5,6 +5,8 @@ import PaymentMethodDropdown from "./paymentMethodDropdown";
 import OnlineScreening from "./onlineScreening";
 import BedspaceDropdown from "./bedspaceDropdown";
 import ReportsDropdown from "./reportsDropdown";
+import DocumentationsDropdown from "./documentationDropdown";
+
 function Offcanvas() {
   return (
     <div
@@ -131,27 +133,7 @@ function Offcanvas() {
             text="Print ICT Certificate"
           />
 
-          <li className="nav-item dropdown">
-            <a
-              className="nav-link dropdown-toggle"
-              href="./#"
-              role="button"
-              data-bs-toggle="dropdown"
-              aria-expanded="false"
-            >
-              Documentations
-            </a>
-            <ul className="dropdown-menu">
-              <li>
-                <a
-                  className="dropdown-item"
-                  href="https://eportal.oauife.edu.ng/info2018_2019.pdf"
-                >
-                  Registration Information and Fees Breakdown
-                </a>
-              </li>
-            </ul>
-          </li>
+          <DocumentationsDropdown />
 
           <List
             listClassName="nav-item"
