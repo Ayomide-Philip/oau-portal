@@ -15,7 +15,7 @@ function Body() {
       <div>
         <p className="display-4">Student Details</p>
         <p className="display-6 fs-4">Registration Number: 20241234567JF</p>
-        <p className="display-6 fs-4">Name: Test Website</p>
+        <p className="display-6 fs-4">Name: Areo Ayomide Philip</p>
         <p className="display-6 fs-4">Current Part: 1</p>
         <p className="display-6 fs-4">
           Degree Programme: B.Sc Computer Science with Mathematics
