@@ -5,7 +5,7 @@ function Body() {
     <div className="main-container container-xl">
       <div className="rounded-2">
         <img
-          src="/images/oaulogo.png"
+          src="/images/profile-svgrepo-com.svg"
           className="float-end profile-picture"
           alt="..."
           height="200px"
