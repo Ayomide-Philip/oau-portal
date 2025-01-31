@@ -10,7 +10,7 @@ function Body() {
           alt="..."
           height="200px"
           width="200px"
-        ></img>
+        />
       </div>
       <div>
         <p className="display-6 fs-4">Registration Number: 20241234567JF</p>
