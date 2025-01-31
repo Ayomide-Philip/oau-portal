@@ -1,5 +1,4 @@
 import React from "react";
-import schoolLogo from "./images/oaulogo.png";
 import Menubutton from "./menubutton";
 import Offcanvas from "./offcanvas";
 function Header() {
@@ -8,7 +7,7 @@ function Header() {
       <div className="container-fluid">
         <a className="navbar-brand" href="./#">
           <img
-            src={schoolLogo}
+            src="/images/oaulogo.png"
             alt="Logo"
             width="100"
             height="100"
