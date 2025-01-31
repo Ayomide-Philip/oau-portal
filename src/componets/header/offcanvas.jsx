@@ -4,7 +4,7 @@ import List from "./lists";
 import PaymentMethodDropdown from "./paymentMethodDropdown";
 import OnlineScreening from "./onlineScreening";
 import BedspaceDropdown from "./bedspaceDropdown";
-
+import ReportsDropdown from "./reportsDropdown";
 function Offcanvas() {
   return (
     <div
@@ -122,7 +122,7 @@ function Offcanvas() {
           />
           <BedspaceDropdown />
 
-
+          <ReportsDropdown />
           <li className="nav-item dropdown">
             <a
               className="nav-link dropdown-toggle"
