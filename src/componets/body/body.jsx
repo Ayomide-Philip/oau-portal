@@ -6,13 +6,14 @@ function Body() {
       <div className="rounded-2">
         <img
           src="/images/oaulogo.png"
-          className="float-end"
+          className="float-end profile-picture"
           alt="..."
           height="200px"
           width="200px"
         />
       </div>
       <div>
+        <p className="display-4">Student Details</p>
         <p className="display-6 fs-4">Registration Number: 20241234567JF</p>
         <p className="display-6 fs-4">Name: Test Website</p>
         <p className="display-6 fs-4">Current Part: 1</p>
