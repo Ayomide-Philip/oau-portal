@@ -3,6 +3,8 @@ import profile from "./images/profile-svgrepo-com.svg";
 import List from "./lists";
 import PaymentMethodDropdown from "./paymentMethodDropdown";
 import OnlineScreening from "./onlineScreening";
+import BedspaceDropdown from "./bedspaceDropdown";
+
 function Offcanvas() {
   return (
     <div
@@ -118,46 +120,9 @@ function Offcanvas() {
             url="./#"
             text="Check Messages"
           />
+          <BedspaceDropdown />
 
-          <li className="nav-item dropdown">
-            <a
-              className="nav-link dropdown-toggle"
-              href="./#"
-              role="button"
-              data-bs-toggle="dropdown"
-              aria-expanded="false"
-            >
-              Bedspace Request
-            </a>
-            <ul className="dropdown-menu">
-              <li>
-                <a className="dropdown-item" href="./#">
-                  Information On Accomdation
-                </a>
-              </li>
-              <li>
-                <a className="dropdown-item" href="./#">
-                  All Fresher BedSpace Request
-                </a>
-              </li>
-              <li>
-                <a className="dropdown-item" href="./#">
-                  Final Year BedSpace Request
-                </a>
-              </li>
-              <li>
-                <a className="dropdown-item" href="./#">
-                  Part 2 BedSpace Request
-                </a>
-              </li>
-              <li>
-                <a className="dropdown-item" href="./#">
-                  Part 3 BedSpace Request
-                </a>
-              </li>
-            </ul>
-          </li>
-          
+
           <li className="nav-item dropdown">
             <a
               className="nav-link dropdown-toggle"
