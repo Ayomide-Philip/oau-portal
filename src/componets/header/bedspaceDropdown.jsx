@@ -1,5 +1,5 @@
 import React from "react";
-
+import Link from "./link";
 function BedspaceDropdown() {
   return (
     <li className="nav-item dropdown">
@@ -14,29 +14,39 @@ function BedspaceDropdown() {
       </a>
       <ul className="dropdown-menu">
         <li>
-          <a className="dropdown-item" href="./#">
-            Information On Accomdation
-          </a>
+          <Link
+            className="dropdown-item"
+            url="./#"
+            text=" Information On Accomdation"
+          />
         </li>
         <li>
-          <a className="dropdown-item" href="./#">
-            All Fresher BedSpace Request
-          </a>
+          <Link
+            className="dropdown-item"
+            url="./#"
+            text=" All Fresher BedSpace Request"
+          />
         </li>
         <li>
-          <a className="dropdown-item" href="./#">
-            Final Year BedSpace Request
-          </a>
+          <Link
+            className="dropdown-item"
+            url="./#"
+            text=" Final Year BedSpace Request"
+          />
         </li>
         <li>
-          <a className="dropdown-item" href="./#">
-            Part 2 BedSpace Request
-          </a>
+          <Link
+            className="dropdown-item"
+            url="./#"
+            text="  Part 2 BedSpace Request"
+          />
         </li>
         <li>
-          <a className="dropdown-item" href="./#">
-            Part 3 BedSpace Request
-          </a>
+          <Link
+            className="dropdown-item"
+            url="./#"
+            text="Part 3 BedSpace Request"
+          />
         </li>
       </ul>
     </li>
