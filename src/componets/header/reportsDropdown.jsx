@@ -1,5 +1,5 @@
 import React from "react";
-
+import Link from "./link";
 function ReportsDropdown() {
   return (
     <li className="nav-item dropdown">
@@ -14,13 +14,16 @@ function ReportsDropdown() {
       </a>
       <ul className="dropdown-menu">
         <li>
-          <a className="dropdown-item" href="./#">
-            Basic Rules/Regulations in Halls of Residence
-          </a>
+          <Link
+            className="dropdown-item"
+            url="./#"
+            text="Basic Rules/Regulations in Halls of Residence"
+          />
         </li>
         <li>
+        <Link className="dropdown-item" url="./#" text=" Accomdation Aggrement Form" />
           <a className="dropdown-item" href="./#">
-            Accomdation Aggrement Form
+           
           </a>
         </li>
         <li>
