@@ -7,7 +7,7 @@ function HomeBody() {
         <img
           src="/images/profile-svgrepo-com.svg"
           className="float-end profile-picture"
-          alt="..."
+          alt="profile"
           height="200px"
           width="200px"
         />
