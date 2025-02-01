@@ -44,7 +44,7 @@ function Offcanvas() {
           <List
             listClassName="nav-item"
             linkClassName="nav-link"
-            url="./#"
+            url="/healthRegistration"
             text="Health Center Registration"
           />
 
