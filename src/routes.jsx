@@ -7,7 +7,7 @@ function AppRouting() {
   return (
     <Routes>
       <Route path="/" element={<App />} />
-      <Route path="/about" element={<HealthRegistration />} />
+      <Route path="/healthRegistration" element={<HealthRegistration />} />
     </Routes>
   );
 }
