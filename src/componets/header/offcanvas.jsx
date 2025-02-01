@@ -37,7 +37,7 @@ function Offcanvas() {
           <List
             listClassName="nav-item"
             linkClassName="nav-link active"
-            url="./#"
+            url="/"
             text="Profile Page"
           />
 
