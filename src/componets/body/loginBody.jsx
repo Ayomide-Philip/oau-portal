@@ -3,7 +3,7 @@ import React from "react";
 function LoginBody() {
   return (
     <div className="main-container">
-      <div class="card mx-auto my-5" style={{ width: "18rem" }}>
+      <div class="card mx-auto my-5">
         <img
           src="/images/oaulogo.png"
           class="card-img-top"
