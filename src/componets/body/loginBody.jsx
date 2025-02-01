@@ -8,7 +8,7 @@ function LoginBody() {
         <div class="card-body">
           <h5 class="card-title display-6 text-center">Login</h5>
           <div class="input-group mb-3">
-            <span class="input-group-text" id="basic-addon1">
+            <span class="input-group-text">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="16"
@@ -20,13 +20,15 @@ function LoginBody() {
                 <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6" />
               </svg>
             </span>
-            <input
-              type="text"
-              class="form-control"
-              placeholder="Username"
-              aria-label="Username"
-              aria-describedby="basic-addon1"
-            />
+            <div class="form-floating">
+              <input
+                type="text"
+                class="form-control"
+                id="floatingInputGroup1"
+                placeholder="UTME/MATRIC No."
+              />
+              <label for="floatingInputGroup1">UTME/MATRIC No.</label>
+            </div>
           </div>
           <a href="./#" class="btn btn-primary">
             Go somewhere
