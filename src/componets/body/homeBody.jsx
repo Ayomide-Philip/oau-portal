@@ -3,7 +3,7 @@ import Info from "./info";
 function HomeBody() {
   return (
     <div className="main-container container-xl">
-      <div className="rounded-2">
+      <div className="rounded-2 profile">
         <img
           src="/images/profile-svgrepo-com.svg"
           className="float-end profile-picture"
