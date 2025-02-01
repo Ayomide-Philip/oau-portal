@@ -1,5 +1,6 @@
 import React from "react";
 import Info from "./info";
+
 function HomeBody() {
   return (
     <div className="main-container container-xl">
