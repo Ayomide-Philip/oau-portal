@@ -3,14 +3,14 @@ import React from "react";
 function LoginBody() {
   return (
     <div className="main-container">
-      <div class="card mx-auto my-5" style={{ width: "20rem" }}>
-        <img src="/images/oaulogo.png" class="card-img-top" alt="School Logo" />
+      <div class="card mx-auto my-5" style={{ width: "18rem" }}>
+        <img
+          src="/images/oaulogo.png"
+          class="card-img-top"
+          alt="School Logo"
+        />
         <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">
-            Some quick example text to build on the card title and make up the
-            bulk of the card's content.
-          </p>
+          <h5 class="card-title display-6 text-center">Login</h5>
           <a href="./#" class="btn btn-primary">
             Go somewhere
           </a>
