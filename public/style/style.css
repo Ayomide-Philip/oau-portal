@@ -165,76 +165,6 @@ div.profile>div>h4.profile-heading {
     font-weight: 400;
 }
 
-@media (max-width: 768px) {
-    .headingTop h1 {
-        font-size: 1rem;
-    }
-
-    .navbar-brand img {
-        max-width: 50px;
-        height: auto;
-    }
-
-    div.main-container {
-        margin-top: 80px;
-    }
-
-    div.profile-body>div.profile-picture>img {
-        width: 150px;
-        height: 150px;
-    }
-}
-
-@media (max-width: 426px) {
-    .headingTop h1 {
-        font-size: 15px;
-    }
-
-    div.profile-body>div.profile-picture>img {
-        width: 100px;
-        height: 100px;
-    }
-
-    div.profile>div>h4 {
-        font-size: smaller;
-        font-family: "Parkinsans", sans-serif;
-        font-optical-sizing: auto;
-        font-weight: bolder;
-        font-style: normal
-    }
-
-    .profile-picture {
-        border: 5px solid;
-        border-radius: 10px;
-        width: 150px;
-        height: 150px;
-    }
-
-    div.profile {
-        display: flex;
-        flex-direction: column;
-        align-items: flex-end;
-        margin-top: 10px;
-        margin-bottom: 10px;
-    }
-}
-
-@media (max-width: 376px) {
-    .headingTop h1 {
-        font-size: 12px;
-    }
-
-    a.navbar-brand {
-        margin: 0 !important;
-    }
-}
-
-@media (max-width: 321px) {
-    .headingTop h1 {
-        font-size: 12px;
-    }
-}
-
 footer {
     background-color: black;
     padding: 1%;
@@ -279,4 +209,82 @@ footer a {
 footer a:hover {
     color: #aab6c4;
     text-decoration: underline;
+}
+
+div.card {
+    width: 18rem;
+}
+
+@media (max-width: 768px) {
+    .headingTop h1 {
+        font-size: 1rem;
+    }
+
+    .navbar-brand img {
+        max-width: 50px;
+        height: auto;
+    }
+
+    div.main-container {
+        margin-top: 80px;
+    }
+
+    div.profile-body>div.profile-picture>img {
+        width: 150px;
+        height: 150px;
+    }
+}
+
+@media (max-width: 426px) {
+    .headingTop h1 {
+        font-size: 15px;
+    }
+
+    div.profile-body>div.profile-picture>img {
+        width: 100px;
+        height: 100px;
+    }
+
+    div.profile>div>h4 {
+        font-size: smaller;
+        font-family: "Parkinsans", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: bolder;
+        font-style: normal
+    }
+
+    div.card {
+        width: 15rem;
+    }
+
+    .profile-picture {
+        border: 5px solid;
+        border-radius: 10px;
+        width: 150px;
+        height: 150px;
+    }
+
+    div.profile {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+}
+
+@media (max-width: 376px) {
+    .headingTop h1 {
+        font-size: 12px;
+    }
+
+    a.navbar-brand {
+        margin: 0 !important;
+    }
+}
+
+@media (max-width: 321px) {
+    .headingTop h1 {
+        font-size: 12px;
+    }
 }
