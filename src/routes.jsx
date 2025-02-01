@@ -1,13 +1,15 @@
 import React from "react";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import App from "./pages/App";
+import { Routes, Route } from "react-router-dom";
+import App from "./pages/Home";
+import HealthRegistration from "./pages/healthregistration";
 
-function appRouting() {
-  <Router>
+function AppRouting() {
+  return (
     <Routes>
       <Route path="/" element={<App />} />
+      <Route path="/about" element={<HealthRegistration />} />
     </Routes>
-  </Router>;
+  );
 }
 
-export default appRouting;
+export default AppRouting;
