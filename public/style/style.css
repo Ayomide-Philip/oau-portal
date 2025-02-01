@@ -143,12 +143,7 @@ div.profile-picture {
     border-radius: 10px;
 }
 
-div.profile {
-    display: flex;
-    flex-direction: column;
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
+
 
 div.profile>div {
     display: flex;
@@ -206,6 +201,21 @@ div.profile>div>h4.profile-heading {
         font-optical-sizing: auto;
         font-weight: bolder;
         font-style: normal
+    }
+
+    .profile-picture {
+        border: 5px solid;
+        border-radius: 10px;
+        width: 150px;
+        height: 150px;
+    }
+
+    div.profile {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        margin-top: 10px;
+        margin-bottom: 10px;
     }
 }
 
