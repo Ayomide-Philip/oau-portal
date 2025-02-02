@@ -59,7 +59,7 @@ function LoginBody() {
               />
               <label htmlFor="passswordSurname">Passsword/Surname</label>
             </div>
-            <span className="input-group-text" id="viewPassword">
+            <button className="input-group-text" id="viewPassword">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="16"
@@ -71,7 +71,7 @@ function LoginBody() {
                 <path d="M10.5 8a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0" />
                 <path d="M0 8s3-5.5 8-5.5S16 8 16 8s-3 5.5-8 5.5S0 8 0 8m8 3.5a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7" />
               </svg>
-            </span>
+            </button>
           </div>
           <div className="d-grid gap-2 col-6 mx-auto">
             <button className="btn btn-primary" type="button">
