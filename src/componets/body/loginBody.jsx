@@ -1,7 +1,10 @@
-import React from "react";
+import React, { useState } from "react";
 import FloatingInputLabel from "./loginBodySubComponet/floatingInputLabel";
 
 function LoginBody() {
+  const [isVisible, setIsVisible] = useState(false);
+
+  
   return (
     <div className="main-container">
       <div className="card mx-auto my-5">
@@ -11,7 +14,7 @@ function LoginBody() {
           alt="School Logo"
         />
         <div className="card-body">
-          <h5 className="card-title display-6 text-center">Login</h5>
+          <h5 className="card-title display-6 text-center fw-bold">Login</h5>
           <div className="input-group mb-3">
             <span className="input-group-text">
               <svg
