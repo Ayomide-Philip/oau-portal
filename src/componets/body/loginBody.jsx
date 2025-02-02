@@ -1,5 +1,6 @@
 import React from "react";
 import FloatingInputLabel from "./loginBodySubComponet/floatingInputLabel";
+
 function LoginBody() {
   return (
     <div className="main-container">
