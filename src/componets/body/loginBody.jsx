@@ -46,15 +46,12 @@ function LoginBody() {
                 />
               </svg>
             </span>
-            <div class="form-floating">
-              <input
-                type="password"
-                class="form-control"
-                id="passwordSurname"
-                placeholder="Password/Surname."
-              />
-              <label for="passwordSurname">Password/Surname</label>
-            </div>
+            <input
+              type="text"
+              class="form-control"
+              aria-label="Amount (to the nearest dollar)"
+            />
+            <span class="input-group-text">.00</span>
           </div>
           <a href="./#" class="btn btn-primary">
             Login
