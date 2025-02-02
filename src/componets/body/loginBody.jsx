@@ -29,15 +29,6 @@ function LoginBody() {
               id="utmeMatricNumber"
               label="UTME/MATRIC No."
             />
-            <div className="form-floating">
-              <input
-                type="text"
-                className="form-control"
-                id="utmeMatricNumber"
-                placeholder="UTME/MATRIC No."
-              />
-              <label htmlFor="utmeMatricNumber">UTME/MATRIC No.</label>
-            </div>
           </div>
           <div className="input-group mb-3">
             <span className="input-group-text">
