@@ -1,5 +1,5 @@
 import React from "react";
-import Info from "./info";
+import Info from "./homebodySubComponet/info";
 
 function HomeBody() {
   return (
