@@ -48,14 +48,14 @@ function LoginBody() {
             </span>
             <div class="form-floating">
               <input
-                type="text"
+                type="password"
                 class="form-control"
                 id="passswordSurname"
                 placeholder="Passsword/Surname"
               />
               <label for="passswordSurname">Passsword/Surname</label>
             </div>
-            <span class="input-group-text">
+            <span class="input-group-text" id="viewPassword">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="16"
