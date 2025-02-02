@@ -46,15 +46,11 @@ function LoginBody() {
                 />
               </svg>
             </span>
-            <div className="form-floating">
-              <input
-                type="password"
-                className="form-control"
-                id="passswordSurname"
-                placeholder="Passsword/Surname"
-              />
-              <label htmlFor="passswordSurname">Passsword/Surname</label>
-            </div>
+            <FloatingInputLabel
+              type="password"
+              id="passswordSurname"
+              label="Passsword/Surname"
+            />
             <button className="input-group-text" id="viewPassword">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
