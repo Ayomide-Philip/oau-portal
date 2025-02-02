@@ -73,7 +73,7 @@ function LoginBody() {
               </svg>
             </button>
           </div>
-          <div className="d-grid gap-2 col-6 mx-auto">
+          <div className="d-grid gap-2">
             <button className="btn btn-primary" type="button">
               Login
             </button>
