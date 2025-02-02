@@ -48,7 +48,7 @@ function LoginBody() {
             </span>
             <div class="form-floating">
               <input
-                type="text"
+                type="password"
                 class="form-control"
                 id="passwordSurname"
                 placeholder="Password/Surname."
