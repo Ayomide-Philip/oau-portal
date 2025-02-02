@@ -51,7 +51,9 @@ function LoginBody() {
               class="form-control"
               aria-label="Amount (to the nearest dollar)"
             />
-            <span class="input-group-text">.00</span>
+            <span class="input-group-text">
+              
+            </span>
           </div>
           <a href="./#" class="btn btn-primary">
             Login
