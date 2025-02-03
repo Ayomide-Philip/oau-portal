@@ -4,11 +4,10 @@ import FloatingInputLabel from "./loginBodySubComponet/floatingInputLabel";
 function LoginBody() {
   const [isVisible, setIsVisible] = useState(false);
   const year = [];
-  for (let i = new Date().getFullYear() - 1; i >= 2006; i--) {
+
+  for (let i = new Date().getFullYear() - 2; i >= 2006; i--) {
     year.push({ session: `${i}`, year: `${i}/${i + 1}` });
   }
-
-  console.log(year);
 
   return (
     <div className="main-container">
@@ -98,8 +97,12 @@ function LoginBody() {
             </button>
           </div>
           <div className="input-group mb-3">
-            <select class="form-select" aria-label="Default select example">
-              <option defaultValue={true}>Select Session</option>
+            <select
+              defaultValue={new Date().getFullYear() - 2}
+              class="form-select"
+              aria-label="Default select example"
+            >
+              <option>Select Session</option>
               {year.map((years) => {
                 return <option value={years.session}>{years.year}</option>;
               })}
