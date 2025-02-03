@@ -60,7 +60,8 @@ function LoginBody() {
                 id="passswordSurname"
                 label="Passsword/Surname"
               />
-              <button type="button"
+              <button
+                type="button"
                 onClick={() => {
                   setIsVisible(!isVisible);
                 }}
@@ -109,15 +110,14 @@ function LoginBody() {
               </select>
             </div>
             <div className="input-group mb-3">
-            <select
+              <select
                 class="form-select"
-                aria-label="Session Selection"
-                name="session"
+                aria-label="Semester Period"
+                name="semesterPeriod"
               >
-                <option>Select Session</option>
-                {year.map((years) => {
-                  return <option value={years.session}>{years.year}</option>;
-                })}
+                <option>Select Semester</option>
+                <option value="Harmattan">Harmattan</option>;
+                <option value="Rain">Rain</option>;
               </select>
             </div>
             <div className="d-grid gap-2">
