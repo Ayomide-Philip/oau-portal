@@ -4,6 +4,7 @@ import FloatingInputLabel from "./loginBodySubComponet/floatingInputLabel";
 const userNames = [
   { id: "202440604235JF", name: "Areo Ayomide Philip" },
   { id: "202424413428FA", name: "Sir David" },
+  {id:"202440451722JF", name:"Dieko Alagbe"}
 ];
 function LoginBody() {
   const [isVisible, setIsVisible] = useState(false);
