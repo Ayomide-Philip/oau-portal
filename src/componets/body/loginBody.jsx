@@ -19,7 +19,9 @@ function LoginBody() {
           alt="School Logo"
         />
         <div className="card-body">
-          <h5 className="card-title display-6 text-center fw-bold">Login</h5>
+          <h5 className="card-title lead text-center fw-bold">
+            {username === "" ? "Hello Guest" : `Hello ${username}`}
+          </h5>
           <form>
             <div className="input-group mb-3">
               <span className="input-group-text">
