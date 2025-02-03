@@ -8,6 +8,7 @@ function FloatingInputLabel(props) {
         className="form-control"
         id={props.id}
         placeholder={props.label}
+        name={props.id}
       />
       <label htmlFor={props.id}>{props.label}</label>
     </div>
