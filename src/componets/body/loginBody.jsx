@@ -11,6 +11,8 @@ function LoginBody() {
           src="/images/oaulogo.png"
           className="card-img-top"
           alt="School Logo"
+          height="300px"
+          width="200px"
         />
         <div className="card-body">
           <h5 className="card-title display-6 text-center fw-bold">Login</h5>
