@@ -1,10 +1,21 @@
 import React, { useState } from "react";
 import FloatingInputLabel from "./loginBodySubComponet/floatingInputLabel";
 
+const userNames = [
+  { id: "202440604235JF", name: "Areo Ayomide Philip" },
+  { id: "202424413428FA", name: "Sir David" },
+];
 function LoginBody() {
   const [isVisible, setIsVisible] = useState(false);
   const year = [];
   var [username, setUsername] = useState("");
+  var name = "";
+
+  for (let i = 0; i < userNames.length; i++) {
+    if (userNames[i].id === username) {
+      name = userNames[i].name;
+    }
+  }
 
   for (let i = new Date().getFullYear() - 2; i >= 2006; i--) {
     year.push({ session: `${i}`, year: `${i}/${i + 1}` });
@@ -20,7 +31,7 @@ function LoginBody() {
         />
         <div className="card-body">
           <h5 className="card-title lead text-center fw-bold">
-            {username === "" ? "Hello Guest" : `Hello ${username}`}
+            {name === "" || undefined ? "Hello Guest" : `Hello ${name}`}
           </h5>
           <form>
             <div className="input-group mb-3">
