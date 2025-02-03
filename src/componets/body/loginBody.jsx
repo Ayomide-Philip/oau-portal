@@ -108,6 +108,18 @@ function LoginBody() {
                 })}
               </select>
             </div>
+            <div className="input-group mb-3">
+            <select
+                class="form-select"
+                aria-label="Session Selection"
+                name="session"
+              >
+                <option>Select Session</option>
+                {year.map((years) => {
+                  return <option value={years.session}>{years.year}</option>;
+                })}
+              </select>
+            </div>
             <div className="d-grid gap-2">
               <input type="submit" className="btn btn-primary" value="Login" />
             </div>
