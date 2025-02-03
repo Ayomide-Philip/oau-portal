@@ -21,7 +21,7 @@ function LoginBody() {
         />
         <div className="card-body">
           <h5 className="card-title display-6 text-center fw-bold">Login</h5>
-          <form >
+          <form>
             <div className="input-group mb-3">
               <span className="input-group-text">
                 <svg
