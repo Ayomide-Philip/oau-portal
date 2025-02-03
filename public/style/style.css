@@ -212,7 +212,17 @@ footer a:hover {
 }
 
 div.card {
-    width: 20rem;
+    width: 25rem;
+    justify-content: center;
+    align-items: center;
+}
+
+div.card-body {
+    width: 100%;
+}
+
+div.card>img {
+    width: 300px;
 }
 
 @media (max-width: 768px) {
@@ -255,6 +265,15 @@ div.card {
 
     div.card {
         width: 18rem;
+    }
+
+    div.card-body {
+        width: 100%;
+    }
+
+    div.card>img {
+        width: 200px;
+        height: 200px;
     }
 
     .profile-picture {
