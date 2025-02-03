@@ -4,12 +4,11 @@ import FloatingInputLabel from "./loginBodySubComponet/floatingInputLabel";
 function LoginBody() {
   const [isVisible, setIsVisible] = useState(false);
   const year = [];
+  var [username, setUsername] = useState("");
 
   for (let i = new Date().getFullYear() - 2; i >= 2006; i--) {
     year.push({ session: `${i}`, year: `${i}/${i + 1}` });
   }
-
-  console.log(year);
 
   return (
     <div className="main-container">
@@ -39,6 +38,11 @@ function LoginBody() {
                 type="text"
                 id="utmeMatricNumber"
                 label="UTME/MATRIC No."
+                func={() => {
+                  setUsername(
+                    document.getElementById("utmeMatricNumber").value
+                  );
+                }}
               />
             </div>
             <div className="input-group mb-3">
