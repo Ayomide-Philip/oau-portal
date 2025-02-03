@@ -9,6 +9,8 @@ function LoginBody() {
     year.push({ session: `${i}`, year: `${i}/${i + 1}` });
   }
 
+  console.log(year);
+
   return (
     <div className="main-container">
       <div className="card mx-auto my-5">
@@ -105,7 +107,11 @@ function LoginBody() {
               >
                 <option>Select Session</option>
                 {year.map((years) => {
-                  return <option value={years.session}>{years.year}</option>;
+                  return (
+                    <option value={years.session} key={years.session}>
+                      {years.year}
+                    </option>
+                  );
                 })}
               </select>
             </div>
