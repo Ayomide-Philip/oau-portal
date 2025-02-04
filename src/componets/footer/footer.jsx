@@ -43,7 +43,7 @@ function Footer() {
 
           <div class="row align-items-start">
             <div class="col">
-              <a href="./#">Lecture Time Table</a>
+              <a href="./#">Lecture Timetable</a>
             </div>
           </div>
         </div>
