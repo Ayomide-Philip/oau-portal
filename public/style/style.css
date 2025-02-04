@@ -307,3 +307,18 @@ div.card>img {
         font-size: 12px;
     }
 }
+
+div>input[type="submit"] {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+div>input[type="submit"]:hover {
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+}
