@@ -6,9 +6,7 @@ function HealthRegistration() {
   return (
     <>
       <Header />
-      <div className="main-container">
-      
-      </div>
+      <HrsBody />
       <Footer />
     </>
   );
