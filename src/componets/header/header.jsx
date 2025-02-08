@@ -3,7 +3,7 @@ import Menubutton from "./menubutton";
 import Offcanvas from "./offcanvas";
 function Header() {
   return (
-    <nav className="navbar fixed-top" style={{ backgroundColor: "#aab6c4" }}>
+    <nav className="navbar fixed-top">
       <div className="container-fluid">
         <a className="navbar-brand" href="./#">
           <img
