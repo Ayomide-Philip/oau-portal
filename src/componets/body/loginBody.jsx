@@ -152,6 +152,7 @@ function LoginBody() {
                   className="btn btn-outline-primary"
                   value="Login"
                 />
+                <a href="./#" className="text-center">Forgoten Password?</a>
               </div>
             </form>
           </div>
