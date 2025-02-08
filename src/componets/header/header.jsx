@@ -15,7 +15,9 @@ function Header() {
           />
         </a>
         <div className="headingTop">
-          <h1 className="display-6">OAU Student Information Portal</h1>
+          <h1 className="display-6">
+            <strong>OAU Student Information Portal</strong>
+          </h1>
         </div>
 
         <Menubutton />
