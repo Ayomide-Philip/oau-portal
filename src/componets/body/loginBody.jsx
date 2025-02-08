@@ -22,7 +22,6 @@ function LoginBody() {
   for (let i = new Date().getFullYear() - 2; i >= 2006; i--) {
     year.push({ session: `${i}`, year: `${i}/${i + 1}` });
   }
-  console.log(year);
 
   return (
     <div className="main-container">
