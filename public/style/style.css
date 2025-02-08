@@ -13,6 +13,11 @@ nav a {
     color: white !important;
 }
 
+nav a :hover {
+    text-decoration: solid !important;
+    font-weight: bolder !important;
+}
+
 div.main-container {
     margin-top: 120px;
 }
