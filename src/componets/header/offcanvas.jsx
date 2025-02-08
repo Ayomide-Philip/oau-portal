@@ -13,6 +13,7 @@ function Offcanvas() {
       tabIndex="-1"
       id="offcanvasNavbar"
       aria-labelledby="offcanvasNavbarLabel"
+      style={{ backgroundColor: "rgb(2, 2, 38)", color: "white" }}
     >
       <div className="offcanvas-header">
         <h5 className="offcanvas-title" id="offcanvasNavbarLabel">
@@ -23,6 +24,7 @@ function Offcanvas() {
           className="btn-close"
           data-bs-dismiss="offcanvas"
           aria-label="Close"
+          style={{ backgroundColor: "white", color: "white" }}
         ></button>
       </div>
       <div className="offcanvas-body">
