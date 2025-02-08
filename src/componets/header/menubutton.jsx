@@ -3,7 +3,7 @@ import React from "react";
 function Menubutton() {
   return (
     <button
-      className="navbar-toggler btn-outline-primary btn"
+      className="navbar-toggler"
       type="button"
       data-bs-toggle="offcanvas"
       data-bs-target="#offcanvasNavbar"
