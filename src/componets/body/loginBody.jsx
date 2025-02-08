@@ -8,9 +8,10 @@ const userNames = [
 ];
 function LoginBody() {
   const [isVisible, setIsVisible] = useState(false);
-  const year = [];
   var [username, setUsername] = useState("");
+
   var name = "";
+  const year = [];
 
   for (let i = 0; i < userNames.length; i++) {
     if (userNames[i].id === username) {
@@ -148,7 +149,7 @@ function LoginBody() {
               <div className="d-grid gap-2">
                 <input
                   type="submit"
-                  className="btn btn-primary"
+                  className="btn btn-outline-primary"
                   value="Login"
                 />
               </div>
