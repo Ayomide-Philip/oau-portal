@@ -48,7 +48,7 @@ function Footer() {
           </div>
         </div>
 
-        <p className="lead text-center">
+        <p className="lead">
           &copy; 2006 - {new Date().getFullYear()} Obafemi Awolowo University
         </p>
       </div>
