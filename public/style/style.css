@@ -10,7 +10,7 @@ nav {
 }
 
 div.main-container {
-    margin-top: 130px;
+    margin-top: 120px;
 }
 
 .navbar-brand img {
@@ -235,7 +235,7 @@ div.card>img {
     }
 
     div.main-container {
-        margin-top: 80px;
+        margin-top: 75px;
     }
 
     div.profile-body>div.profile-picture>img {
@@ -319,4 +319,15 @@ div.d-grid.gap-2>input[type="submit"]:hover {
     background-color: white;
     color: black;
     border: 2px solid black;
+}
+
+div.background-image {
+    background-image: url('../images/DJI_0110-scaled.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
