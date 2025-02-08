@@ -9,6 +9,10 @@ nav {
     color: white;
 }
 
+nav a {
+    color: white !important;
+}
+
 div.main-container {
     margin-top: 120px;
 }
