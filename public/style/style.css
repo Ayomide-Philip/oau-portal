@@ -1,5 +1,5 @@
 nav {
-    background-color: #010066 !important;
+    background-color: #03024e !important;
     width: 100%;
     position: fixed;
     top: 0;
@@ -174,7 +174,7 @@ div.profile>div>h4.profile-heading {
 }
 
 footer {
-    background-color: #010066;
+    background-color: #03024e;
     padding: 1%;
     width: 100%;
     color: white;
@@ -326,4 +326,14 @@ div.background-image {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.dropdown-menu {
+    background-color: black;
+    color: white
+}
+
+.dropdown-menu a:hover {
+    background-color: blue !important;
+    color: white !important;
 }
