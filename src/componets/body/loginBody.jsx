@@ -14,7 +14,7 @@ function LoginBody() {
   const year = [];
 
   for (let i = 0; i < userNames.length; i++) {
-    if (userNames[i].id === username) {
+    if (userNames[i].id === username.trim()) {
       name = userNames[i].name;
     }
   }
