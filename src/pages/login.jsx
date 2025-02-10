@@ -1,7 +1,7 @@
 import React from "react";
-import Header from "../componets/header/header";
-import Footer from "../componets/footer/footer";
-import LoginBody from "../componets/body/loginBody";
+import Header from "../componets/undergraduate/header/header";
+import Footer from "../componets/undergraduate/footer/footer";
+import LoginBody from "../componets/undergraduate/body/loginBody";
 
 function Login() {
   return (
