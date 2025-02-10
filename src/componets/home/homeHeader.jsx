@@ -109,6 +109,16 @@ function HomeHeader() {
                 />
               </a>
             </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./#">
+                <img
+                  src="/images/more-horizontal-circle-svgrepo-com.svg"
+                  alt="contact-writing-write-svgrepo-com"
+                  width="40"
+                  height="30"
+                />
+              </a>
+            </li>
           </ul>
         </div>
       </div>
