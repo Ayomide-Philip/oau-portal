@@ -28,7 +28,7 @@ div.main-container {
 }
 
 .headingTop h1 {
-    font-size: 1.5rem;
+    font-size: 2rem;
 }
 
 .navbar-nav {
@@ -36,12 +36,12 @@ div.main-container {
     justify-content: flex-end;
 }
 
-.nav-item img {
+/* .nav-item img {
     width: 100px;
     height: 100px;
     border-radius: 50%;
     border: 5px solid;
-}
+} */
 
 .nav-item div {
     width: 100%;
@@ -333,6 +333,13 @@ div.background-image {
 
 @media (max-width: 321px) {
     .headingTop h1 {
-        font-size: 12px;
+        font-size: 11px;
+    }
+}
+
+@media (min-width: 768px) {
+    div.headingTop h1>div {
+        width: 400px;
+        text-align: center;
     }
 }
