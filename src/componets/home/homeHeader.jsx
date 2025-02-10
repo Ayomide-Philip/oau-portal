@@ -14,15 +14,15 @@ function HomeHeader() {
           />
         </a>
         <div className="headingTop">
-          <h1 className="display-6">
-            <strong>OAU Student Information Portal</strong>
+          <h1>
+            <strong>OBAFEMI AWOLOWO UNIVERSITY</strong>
           </h1>
         </div>
         <button
           class="navbar-toggler"
           type="button"
           data-bs-toggle="collapse"
-          data-bs-target="./#navbarSupportedContent"
+          data-bs-target="#navbarSupportedContent"
           aria-controls="navbarSupportedContent"
           aria-expanded="false"
           aria-label="Toggle navigation"
