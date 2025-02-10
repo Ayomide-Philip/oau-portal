@@ -16,7 +16,9 @@ function HomeHeader() {
         <div className="headingTop">
           <h1>
             <div>
-              <strong>OBAFEMI AWOLOWO UNIVERSITY</strong>
+              <strong style={{ color: "#FECD42" }}>
+                OBAFEMI AWOLOWO UNIVERSITY
+              </strong>
             </div>
           </h1>
         </div>
@@ -69,7 +71,12 @@ function HomeHeader() {
                 data-bs-toggle="dropdown"
                 aria-expanded="false"
               >
-                Dropdown
+                <img
+                  src="/images/people-svgrepo-com.svg"
+                  width="40"
+                  height="30"
+                  alt=""
+                />
               </a>
               <ul class="dropdown-menu">
                 <li>
@@ -93,8 +100,13 @@ function HomeHeader() {
               </ul>
             </li>
             <li class="nav-item">
-              <a class="nav-link disabled" aria-disabled="true">
-                Disabled
+              <a class="nav-link" href="./#">
+                <img
+                  src="/images/contact-writing-write-svgrepo-com.svg"
+                  alt="contact-writing-write-svgrepo-com"
+                  width="40"
+                  height="30"
+                />
               </a>
             </li>
           </ul>
