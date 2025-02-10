@@ -4,16 +4,20 @@ function HomeHeader() {
   return (
     <nav class="navbar navbar-expand-lg bg-body-primary">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">
-        <img
+        <a class="navbar-brand" href="./#">
+          <img
             src="/images/oaulogo.png"
             alt="Logo"
             width="100"
             height="100"
             className="d-inline-block align-text-top"
           />
-          Bootstrap
         </a>
+        <div className="headingTop">
+          <h1 className="display-6">
+            <strong>OAU Student Information Portal</strong>
+          </h1>
+        </div>
         <button
           class="navbar-toggler"
           type="button"
