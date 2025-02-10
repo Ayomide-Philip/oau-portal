@@ -1,7 +1,7 @@
 import React from "react";
-import Header from "../componets/header/header.jsx";
-import HomeBody from "../componets/body/homeBody.jsx";
-import Footer from "../componets/footer/footer.jsx";
+import Header from "../componets/undergraduate/header/header";
+import HomeBody from "../componets/undergraduate/body/homeBody";
+import Footer from "../componets/undergraduate/footer/footer";
 
 function App() {
   return (
