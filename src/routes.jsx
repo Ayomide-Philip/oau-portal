@@ -1,6 +1,6 @@
 import React from "react";
 import { Routes, Route } from "react-router-dom";
-import App from "./pages/Home";
+import App from "./pages/profile";
 import HealthRegistration from "./pages/healthregistration";
 import Login from "./pages/login";
 
