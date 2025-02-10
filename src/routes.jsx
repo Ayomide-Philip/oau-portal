@@ -7,7 +7,7 @@ import Login from "./pages/login";
 function AppRouting() {
   return (
     <Routes>
-      <Route path="/" element={<Login />} />
+      <Route path="/login" element={<Login />} />
       <Route path="/home" element={<App />} />
       <Route path="/healthRegistration" element={<HealthRegistration />} />
     </Routes>
