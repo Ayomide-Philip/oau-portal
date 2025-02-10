@@ -28,7 +28,7 @@ div.main-container {
 }
 
 .headingTop h1 {
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 
 .navbar-nav {
@@ -323,7 +323,7 @@ div.background-image {
 
 @media (max-width: 376px) {
     .headingTop h1 {
-        font-size: 12px;
+        font-size: 11px;
     }
 
     a.navbar-brand {
