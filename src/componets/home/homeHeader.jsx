@@ -15,6 +15,7 @@ function HomeHeader() {
           aria-controls="navbarSupportedContent"
           aria-expanded="false"
           aria-label="Toggle navigation"
+          style={{ backgroundColor: "white", color: "black" }}
         >
           <span class="navbar-toggler-icon"></span>
         </button>
