@@ -14,10 +14,8 @@ function HomeHeader() {
           />
         </a>
         <div className="headingTop">
-          <h1>
-            <div>
-              <strong>OBAFEMI AWOLOWO UNIVERSITY</strong>
-            </div>
+          <h1 className="display-6">
+            <strong>OBAFEMI AWOLOWO UNIVERSITY</strong>
           </h1>
         </div>
         <button
