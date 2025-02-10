@@ -233,6 +233,27 @@ div.card>img {
     width: 300px;
 }
 
+div.background-image {
+    background-image: url('../images/DJI_0110-scaled.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dropdown-menu {
+    background-color: black;
+    color: white
+}
+
+.dropdown-menu a:hover {
+    background-color: blue !important;
+    color: white !important;
+}
+
 @media (max-width: 768px) {
     .headingTop h1 {
         font-size: 1rem;
@@ -314,26 +335,4 @@ div.card>img {
     .headingTop h1 {
         font-size: 12px;
     }
-}
-
-
-div.background-image {
-    background-image: url('../images/DJI_0110-scaled.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.dropdown-menu {
-    background-color: black;
-    color: white
-}
-
-.dropdown-menu a:hover {
-    background-color: blue !important;
-    color: white !important;
 }
