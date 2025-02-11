@@ -172,7 +172,7 @@ div.profile>div>h4.profile-heading {
 
 footer {
     background-color: #03024e;
-    padding: 1%;
+    padding: 2%;
     width: 100%;
     color: white;
     font-size: smaller;
@@ -182,6 +182,7 @@ div.footer {
     display: flex;
     flex-direction: column;
     font-family: 'Inter', sans-serif;
+    font-size: 1rem;
 }
 
 div.footer>div {
@@ -357,6 +358,10 @@ div.background-image {
 
     .background {
         width: 80%;
+    }
+
+    div.background-image {
+        height: 100vh;
     }
 }
 
