@@ -4,6 +4,25 @@ function Home() {
   return (
     <>
       <HomeHeader />
+      <div className="background-image" style={{ height: "100vh" }}>
+        <div class="text-center background container-fluid">
+          <div class="row row-cols-1 row-cols-sm-1 row-cols-md-2">
+            <div class="col-md-4 mt-3 mb-3">
+              <img
+                src="/images/oaulogo.png"
+                alt=""
+                width="250px"
+                height="250px"
+              />
+            </div>
+            <div class="col-md-8 mt-3 mb-3">
+              <div className="h1 heading-6" style={{ color: "#FECD4A" }}>
+                OBAFEMI AWOLOWO UNIVERSITY
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </>
   );
 }
