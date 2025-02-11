@@ -16,8 +16,11 @@ function Home() {
               />
             </div>
             <div class="col-md-8 mt-3 mb-3">
-              <div className="h1 heading-6" style={{ color: "#FECD4A" }}>
+              <div className="h1 heading-5" style={{ color: "#FECD4A" }}>
                 OBAFEMI AWOLOWO UNIVERSITY
+              </div>
+              <div className="h2 heading-6" style={{ color: "white" }}>
+                (STUDENT INFORMATION PORTAL)
               </div>
             </div>
           </div>
