@@ -51,20 +51,48 @@ function HomeHeader() {
                 <span className="d-inline d-lg-none">Home</span>
               </a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="./#">
-                <img
+    
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link"
+                href="./#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+               <img
                   src="/images/graduate-1-svgrepo-com.svg"
                   width="40"
                   height="30"
                   alt="graduate-1-svgrepo-com"
                   className="d-none d-lg-block"
                 />
+                <span className="d-inline d-lg-none">Students</span>
               </a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item" href="./#">
+                    Action
+                  </a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="./#">
+                    Another action
+                  </a>
+                </li>
+                <li>
+                  <hr class="dropdown-divider" />
+                </li>
+                <li>
+                  <a class="dropdown-item" href="./#">
+                    Something else here
+                  </a>
+                </li>
+              </ul>
             </li>
             <li class="nav-item dropdown">
               <a
-                class="nav-link dropdown-toggle"
+                class="nav-link"
                 href="./#"
                 role="button"
                 data-bs-toggle="dropdown"
@@ -75,8 +103,9 @@ function HomeHeader() {
                   width="40"
                   height="30"
                   alt=""
-                  className="d-none d-lg-block"
+                  className="d-none d-lg-flex"
                 />
+                <span className="d-inline d-lg-none">Staff</span>
               </a>
               <ul class="dropdown-menu">
                 <li>
@@ -106,7 +135,9 @@ function HomeHeader() {
                   alt="contact-writing-write-svgrepo-com"
                   width="40"
                   height="30"
+                  className="d-none d-lg-block"
                 />
+                <span className="d-inline d-lg-none">Contact</span>
               </a>
             </li>
             <li class="nav-item">
@@ -116,7 +147,9 @@ function HomeHeader() {
                   alt="more-horizontal-circle-svgrepo-com"
                   width="40"
                   height="30"
+                  className="d-none d-lg-block"
                 />
+                <span className="d-inline d-lg-none">More</span>
               </a>
             </li>
           </ul>
