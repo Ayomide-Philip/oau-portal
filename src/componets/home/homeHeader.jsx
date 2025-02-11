@@ -51,7 +51,7 @@ function HomeHeader() {
                 <span className="d-inline d-lg-none">Home</span>
               </a>
             </li>
-    
+
             <li class="nav-item dropdown">
               <a
                 class="nav-link"
@@ -60,7 +60,7 @@ function HomeHeader() {
                 data-bs-toggle="dropdown"
                 aria-expanded="false"
               >
-               <img
+                <img
                   src="/images/graduate-1-svgrepo-com.svg"
                   width="40"
                   height="30"
@@ -72,24 +72,17 @@ function HomeHeader() {
               <ul class="dropdown-menu">
                 <li>
                   <a class="dropdown-item" href="./#">
-                    Action
+                    UnderGraduate
                   </a>
                 </li>
                 <li>
                   <a class="dropdown-item" href="./#">
-                    Another action
-                  </a>
-                </li>
-                <li>
-                  <hr class="dropdown-divider" />
-                </li>
-                <li>
-                  <a class="dropdown-item" href="./#">
-                    Something else here
+                    PostGraduate
                   </a>
                 </li>
               </ul>
             </li>
+
             <li class="nav-item dropdown">
               <a
                 class="nav-link"
