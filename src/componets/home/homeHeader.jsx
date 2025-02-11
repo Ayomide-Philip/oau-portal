@@ -69,7 +69,7 @@ function HomeHeader() {
                 />
                 <span className="d-inline d-lg-none">Students</span>
               </a>
-              <ul class="dropdown-menu">
+              <ul class="dropdown-menu dropdown-menu-end mt-2">
                 <li>
                   <a class="dropdown-item" href="./#">
                     UnderGraduate
