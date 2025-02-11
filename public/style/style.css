@@ -217,11 +217,18 @@ footer a:hover {
     text-decoration: underline;
 }
 
+.background {
+    background-color: #03024e;
+    margin: 3%;
+    border-radius: 10px;
+}
+
 div.card {
     width: 25rem;
     justify-content: center;
     align-items: center;
 }
+
 
 div.card-body {
     width: 100%;
@@ -335,10 +342,14 @@ div.background-image {
     }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 767px) {
     div.headingTop h1>div {
         width: 350px;
         text-align: center;
+    }
+
+    .background {
+        width: 80%;
     }
 }
 
