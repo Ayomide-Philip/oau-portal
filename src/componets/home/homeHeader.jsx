@@ -108,20 +108,12 @@ function HomeHeader() {
               <ul class="dropdown-menu">
                 <li>
                   <a class="dropdown-item" href="./#">
-                    Action
+                    Staff Login
                   </a>
                 </li>
                 <li>
                   <a class="dropdown-item" href="./#">
-                    Another action
-                  </a>
-                </li>
-                <li>
-                  <hr class="dropdown-divider" />
-                </li>
-                <li>
-                  <a class="dropdown-item" href="./#">
-                    Something else here
+                    Bursary
                   </a>
                 </li>
               </ul>
@@ -138,17 +130,35 @@ function HomeHeader() {
                 <span className="d-inline d-lg-none">Contact</span>
               </a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="./#">
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link"
+                href="./#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
                 <img
                   src="/images/more-horizontal-circle-svgrepo-com.svg"
-                  alt="more-horizontal-circle-svgrepo-com"
                   width="40"
                   height="30"
-                  className="d-none d-lg-block"
+                  alt="more-horizontal-circle-svgrepo-com"
+                  className="d-none d-lg-flex"
                 />
                 <span className="d-inline d-lg-none">More</span>
               </a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item" href="./#">
+                    Staff Login
+                  </a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="./#">
+                    Bursary
+                  </a>
+                </li>
+              </ul>
             </li>
           </ul>
         </div>
