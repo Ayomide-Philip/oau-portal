@@ -1,5 +1,4 @@
 import React from "react";
-import List from "../undergraduate/header/lists";
 
 function HomeHeader() {
   return (
@@ -151,12 +150,32 @@ function HomeHeader() {
               <ul class="dropdown-menu dropdown-menu-end  mt-2">
                 <li>
                   <a class="dropdown-item" href="./#">
-                    Staff Login
+                    Legal Notice
                   </a>
                 </li>
                 <li>
                   <a class="dropdown-item" href="./#">
-                    Bursary
+                    Lecture timetable
+                  </a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="./#">
+                    Privacy Statement
+                  </a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="./#">
+                    Terms & Conditions
+                  </a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="./#">
+                    Examination Timetable
+                  </a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="./#">
+                    Staff Help
                   </a>
                 </li>
               </ul>
