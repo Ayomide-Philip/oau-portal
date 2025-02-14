@@ -31,7 +31,11 @@ function Offcanvas() {
         <ul className="navbar-nav justify-content-end flex-grow-1 pe-3">
           <li className="nav-item">
             <div>
-              <img src="/images/profile-svgrepo-com.svg" alt="person-image" />
+              <img
+                src="/images/profile-svgrepo-com.svg"
+                alt="person-image"
+                style={{ width: "150px", height: "150px", borderRadius:"50%" }}
+              />
               <h5>Lorem, ipsum dolor.</h5>
             </div>
           </li>
