@@ -70,21 +70,21 @@ function HomeHeader() {
                 <span className="d-inline d-lg-none">Students</span>
               </a>
               <ul class="dropdown-menu dropdown-menu-end mt-2">
-                <li>
-                  <a class="dropdown-item" href="./#">
-                    UnderGraduate
-                  </a>
-                </li>
-                <li>
-                  <a class="dropdown-item" href="./#">
-                    PostGraduate
-                  </a>
-                </li>
-                <li>
-                  <a class="dropdown-item" href="./#">
-                    Executive MBA
-                  </a>
-                </li>
+                <List
+                  linkClassName="dropdown-item"
+                  url="./#"
+                  text="UnderGraduate"
+                />
+                <List
+                  linkClassName="dropdown-item"
+                  url="./#"
+                  text="PostGraduate"
+                />
+                <List
+                  linkClassName="dropdown-item"
+                  url="./#"
+                  text=" Executive MBA"
+                />
               </ul>
             </li>
 
@@ -106,16 +106,12 @@ function HomeHeader() {
                 <span className="d-inline d-lg-none">Staff</span>
               </a>
               <ul class="dropdown-menu dropdown-menu-end mt-2">
-              <List
+                <List
                   linkClassName="dropdown-item"
                   url="./#"
                   text="Staff Login"
                 />
-                <List
-                  linkClassName="dropdown-item"
-                  url="./#"
-                  text="Bursary"
-                />
+                <List linkClassName="dropdown-item" url="./#" text="Bursary" />
               </ul>
             </li>
             <li class="nav-item">
