@@ -1,14 +1,14 @@
 import React from "react";
-import Header from "../componets/undergraduate/header/header";
-import Footer from "../componets/undergraduate/footer/footer";
+import HomeHeader from "../componets/home/homeHeader";
+import HomeFooter from "../componets/home/footer";
 import LoginBody from "../componets/undergraduate/body/loginBody";
 
 function Login() {
   return (
     <>
-      <Header />
+      <HomeHeader />
       <LoginBody />
-      <Footer />
+      <HomeFooter />
     </>
   );
 }
