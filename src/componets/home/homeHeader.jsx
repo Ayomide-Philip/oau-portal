@@ -153,24 +153,29 @@ function HomeHeader() {
                   url="./#"
                   text=" Legal Notice"
                 />
+                <List
+                  linkClassName="dropdown-item"
+                  url="./#"
+                  text="Lecture Timetable"
+                />
+                <List
+                  linkClassName="dropdown-item"
+                  url="./#"
+                  text="Privacy Statement"
+                />
+                <List
+                  linkClassName="dropdown-item"
+                  url="./#"
+                  text="Terms & Conditions"
+                />
+                <List
+                  linkClassName="dropdown-item"
+                  url="./#"
+                  text="Examination Timetable"
+                />
                 <li>
                   <a class="dropdown-item" href="./#">
-                    Lecture timetable
-                  </a>
-                </li>
-                <li>
-                  <a class="dropdown-item" href="./#">
-                    Privacy Statement
-                  </a>
-                </li>
-                <li>
-                  <a class="dropdown-item" href="./#">
-                    Terms & Conditions
-                  </a>
-                </li>
-                <li>
-                  <a class="dropdown-item" href="./#">
-                    Examination Timetable
+                  
                   </a>
                 </li>
                 <li>
