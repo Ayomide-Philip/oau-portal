@@ -106,16 +106,16 @@ function HomeHeader() {
                 <span className="d-inline d-lg-none">Staff</span>
               </a>
               <ul class="dropdown-menu dropdown-menu-end mt-2">
-                <li>
-                  <a class="dropdown-item" href="./#">
-                    Staff Login
-                  </a>
-                </li>
-                <li>
-                  <a class="dropdown-item" href="./#">
-                    Bursary
-                  </a>
-                </li>
+              <List
+                  linkClassName="dropdown-item"
+                  url="./#"
+                  text="Staff Login"
+                />
+                <List
+                  linkClassName="dropdown-item"
+                  url="./#"
+                  text="Bursary"
+                />
               </ul>
             </li>
             <li class="nav-item">
@@ -173,16 +173,11 @@ function HomeHeader() {
                   url="./#"
                   text="Examination Timetable"
                 />
-                <li>
-                  <a class="dropdown-item" href="./#">
-                  
-                  </a>
-                </li>
-                <li>
-                  <a class="dropdown-item" href="./#">
-                    Staff Help
-                  </a>
-                </li>
+                <List
+                  linkClassName="dropdown-item"
+                  url="./#"
+                  text="Staff Help"
+                />
               </ul>
             </li>
           </ul>
