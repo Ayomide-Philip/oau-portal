@@ -40,7 +40,7 @@ function HomeHeader() {
         >
           <ul class="navbar-nav ms-auto">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="./#">
+              <a class="nav-link active" aria-current="page" href="/">
                 <img
                   src="/images/home-1-svgrepo-com.svg"
                   alt=""
@@ -178,7 +178,6 @@ function HomeHeader() {
                 />
               </ul>
             </li>
-            
           </ul>
         </div>
       </div>
