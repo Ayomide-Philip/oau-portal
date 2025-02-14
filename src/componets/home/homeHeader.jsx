@@ -1,5 +1,5 @@
 import React from "react";
-
+import List from "../undergraduate/header/lists";
 function HomeHeader() {
   return (
     <nav class="navbar navbar-expand-lg bg-body-primary fixed-top">
@@ -148,11 +148,11 @@ function HomeHeader() {
                 <span className="d-inline d-lg-none">More</span>
               </a>
               <ul class="dropdown-menu dropdown-menu-end  mt-2">
-                <li>
-                  <a class="dropdown-item" href="./#">
-                    Legal Notice
-                  </a>
-                </li>
+                <List
+                  linkClassName="dropdown-item"
+                  url="./#"
+                  text=" Legal Notice"
+                />
                 <li>
                   <a class="dropdown-item" href="./#">
                     Lecture timetable
