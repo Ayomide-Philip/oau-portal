@@ -114,6 +114,7 @@ function HomeHeader() {
                 <List linkClassName="dropdown-item" url="./#" text="Bursary" />
               </ul>
             </li>
+
             <li class="nav-item">
               <a class="nav-link" href="./#">
                 <img
@@ -126,6 +127,7 @@ function HomeHeader() {
                 <span className="d-inline d-lg-none">Contact</span>
               </a>
             </li>
+
             <li class="nav-item dropdown">
               <a
                 class="nav-link"
@@ -176,6 +178,7 @@ function HomeHeader() {
                 />
               </ul>
             </li>
+            
           </ul>
         </div>
       </div>
