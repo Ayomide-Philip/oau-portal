@@ -36,7 +36,7 @@ function LoginBody() {
             <h5 className="card-title lead text-center fw-bold">
               {name === "" || undefined ? "Hello Guest" : `Hello ${name}`}
             </h5>
-            <form>
+            <form action="/home">
               <div className="input-group mb-3">
                 <span className="input-group-text">
                   <svg
@@ -152,7 +152,9 @@ function LoginBody() {
                   className="btn btn-outline-primary"
                   value="Login"
                 />
-                <a href="./#" className="text-center">Forgoten Password?</a>
+                <a href="./#" className="text-center">
+                  Forgoten Password?
+                </a>
               </div>
             </form>
           </div>
