@@ -182,7 +182,7 @@ div.footer {
     display: flex;
     flex-direction: column;
     font-family: 'Inter', sans-serif;
-    font-size: 1rem;
+    font-size: 1.2rem;
 }
 
 div.footer>div {
