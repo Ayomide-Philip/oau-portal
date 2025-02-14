@@ -10,6 +10,7 @@ function FloatingInputLabel(props) {
         id={props.id}
         placeholder={props.label}
         name={props.id}
+        required
       />
       <label htmlFor={props.id}>{props.label}</label>
     </div>
