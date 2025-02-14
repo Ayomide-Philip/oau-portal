@@ -72,7 +72,7 @@ function HomeHeader() {
               <ul class="dropdown-menu dropdown-menu-end mt-2">
                 <List
                   linkClassName="dropdown-item"
-                  url="./#"
+                  url="/login"
                   text="UnderGraduate"
                 />
                 <List
