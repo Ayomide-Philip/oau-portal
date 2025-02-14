@@ -12,7 +12,7 @@ function Home() {
             <div class="col-md-4 mt-3 mb-3">
               <img
                 src="/images/oaulogo.png"
-                alt=""
+                alt="oaulogo"
                 width="250px"
                 height="250px"
               />
