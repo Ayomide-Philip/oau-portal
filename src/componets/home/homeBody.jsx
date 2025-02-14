@@ -1,4 +1,5 @@
 import React from "react";
+import DivBody from "./bodyComponet/divBody";
 
 function HomeBody() {
   return (
@@ -14,15 +15,17 @@ function HomeBody() {
             />
           </div>
           <div class="col-md-8 mt-3 mb-3">
-            <div className="h1 heading-5" style={{ color: "#FECD4A" }}>
-              OBAFEMI AWOLOWO UNIVERSITY
-            </div>
-            <div className="h3" style={{ color: "white" }}>
-              (STUDENT INFORMATION PORTAL)
-            </div>
-            <div className="h1 heading-4" style={{ color: "#FECD4A" }}>
-              Welcome
-            </div>
+            <DivBody
+              className="h1 heading-5"
+              color="#FECD4A"
+              text="OBAFEMI AWOLOWO UNIVERSITY"
+            />
+            <DivBody
+              className="h3"
+              color="white"
+              text="(STUDENT INFORMATION PORTAL)"
+            />
+            <DivBody className="h1 heading-4" color="#FECD4A" text="Welcome" />
           </div>
         </div>
       </div>
