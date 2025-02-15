@@ -10,13 +10,13 @@ function HomeBody() {
         class="container text-center"
         style={{
           backgroundColor: "white",
-          padding: "10px",
           borderRadius: "10px",
+          padding: "20px",
         }}
       >
         <h2>Personal Information</h2>
         <div class="row">
-          <div class="col-sm-4">
+          <div class="col-md-4 mb-3">
             <img
               src="/images/profile-svgrepo-com.svg"
               alt="profile"
@@ -26,9 +26,23 @@ function HomeBody() {
             />
           </div>
           <div class="col-sm-8 text-start">
-            <div class="row">
-              <div class="col-4">1 of 3</div>
-              <div class="col-8">2 of 3 (wider)</div>
+            <div className="info">
+              <span className="lead">Name:</span>
+              <span className="lead">Areo Ayomide Philip</span>
+            </div>
+
+            <div className="info">
+              <span className="lead">Reg. Number/ Matric No:</span>
+              <span className="lead">202440604235JF</span>
+            </div>
+            
+            <div className="info">
+              <span className="lead">Departement:</span>
+              <span className="lead">Computer Science and Cyber Security</span>
+            </div>
+            <div className="info">
+              <span className="lead">Faculty:</span>
+              <span className="lead"> Computing Science and Engineering</span>
             </div>
           </div>
         </div>
