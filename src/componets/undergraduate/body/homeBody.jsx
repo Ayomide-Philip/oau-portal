@@ -7,7 +7,7 @@ function HomeBody() {
       style={{ marginBottom: "50px" }}
     >
       <div
-        class="container text-center"
+        class="container text-center mb-5"
         style={{
           backgroundColor: "white",
           borderRadius: "10px",
@@ -63,12 +63,18 @@ function HomeBody() {
       </div>
 
       <div class="container text-center">
-        <div class="row   row-cols-md-2 row-cols-1  g-2 g-lg-3">
-          <div class="col">
-            <div class="p-3">Row column</div>
+        <div class="row row-cols-md-2 row-cols-1 g-5 g-md-3">
+          <div
+            class="col"
+            style={{ backgroundColor: "white", borderRadius: "10px" }}
+          >
+            <div class="p-3">Row column 1</div>
           </div>
-          <div class="col">
-            <div class="p-3">Row column</div>
+          <div
+            class="col"
+            style={{ backgroundColor: "white", borderRadius: "10px" }}
+          >
+            <div class="p-3">Row column 2</div>
           </div>
         </div>
       </div>
