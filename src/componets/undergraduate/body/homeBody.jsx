@@ -166,6 +166,7 @@ function HomeBody() {
                     <span className="lead">Hall:</span>
                     <span className="lead">Angola Hall</span>
                   </div>
+                  
                 </div>
               </div>
             </div>
