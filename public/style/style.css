@@ -19,7 +19,7 @@ nav a :hover {
 }
 
 div.main-container {
-    margin-top: 120px;
+    margin-top: 150px;
 }
 
 .navbar-brand img {
@@ -267,6 +267,32 @@ div.background-image {
     color: white !important;
 }
 
+
+
+.dropdown-menu-center {
+    left: 50%;
+    transform: translateX(-50%);
+    width: max-content;
+}
+
+body {
+    background-color: #DEDEDE;
+}
+
+span.lead {
+    font-size: 20px;
+    font-family: 'Inter', sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+}
+
+div.info {
+    font-style: normal;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-family: "Inter", serif;
+}
+
 @media (max-width: 768px) {
     .headingTop h1 {
         font-size: 1rem;
@@ -278,7 +304,7 @@ div.background-image {
     }
 
     div.main-container {
-        margin-top: 75px;
+        margin-top: 80px;
     }
 
     div.profile-body>div.profile-picture>img {
@@ -332,6 +358,13 @@ div.background-image {
         margin-top: 10px;
         margin-bottom: 10px;
     }
+
+    span.lead {
+        font-size: 12px;
+        font-family: 'Inter', sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 300;
+    }
 }
 
 @media (max-width: 376px) {
@@ -363,14 +396,4 @@ div.background-image {
     div.background-image1 {
         height: 100vh;
     }
-}
-
-.dropdown-menu-center {
-    left: 50%;
-    transform: translateX(-50%);
-    width: max-content;
-}
-
-body {
-    background-color: #DEDEDE;
 }
