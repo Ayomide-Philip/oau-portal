@@ -73,6 +73,11 @@ function HomeBody() {
                 <h5>Student Contact Information</h5>
                 <div class="col-sm-8 text-start">
                   <div className="info">
+                    <span className="lead">Name:</span>
+                    <span className="lead">Lorem, ipsum dolor.</span>
+                  </div>
+
+                  <div className="info">
                     <span className="lead">Contact No:</span>
                     <span className="lead">+23412345678901</span>
                   </div>
@@ -85,12 +90,31 @@ function HomeBody() {
               </div>
             </div>
           </div>
+
           <div className="col">
             <div
               className="p-3"
               style={{ backgroundColor: "white", borderRadius: "10px" }}
             >
-              Row column 2
+              <div>
+                <h5>Guardian Contact Information</h5>
+                <div class="col-sm-8 text-start">
+                  <div className="info">
+                    <span className="lead">Name:</span>
+                    <span className="lead">Lorem, ipsum dolor.</span>
+                  </div>
+
+                  <div className="info">
+                    <span className="lead">Contact No:</span>
+                    <span className="lead">+23412345678990</span>
+                  </div>
+
+                  <div className="info">
+                    <span className="lead">Email:</span>
+                    <span className="lead">Loremipsum@gmail.com</span>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
