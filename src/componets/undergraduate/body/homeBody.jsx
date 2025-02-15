@@ -70,16 +70,16 @@ function HomeBody() {
               style={{ backgroundColor: "white", borderRadius: "10px" }}
             >
               <div>
-                <h4>Student Contact Information</h4>
+                <h5>Student Contact Information</h5>
                 <div class="col-sm-8 text-start">
                   <div className="info">
-                    <span className="lead">Contact No.:</span>
-                    <span className="lead">12345678901</span>
+                    <span className="lead">Contact No:</span>
+                    <span className="lead">+23412345678901</span>
                   </div>
 
                   <div className="info">
-                    <span className="lead">Email Address:</span>
-                    <span className="lead">a1234567@gmail.com</span>
+                    <span className="lead">Email:</span>
+                    <span className="lead">Loremipsum@gmail.com</span>
                   </div>
                 </div>
               </div>
