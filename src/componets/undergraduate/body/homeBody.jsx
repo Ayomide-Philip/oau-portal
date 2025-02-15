@@ -62,7 +62,7 @@ function HomeBody() {
         </div>
       </div>
 
-      <div className="container text-center">
+      <div className="container text-center mb-5">
         <div className="row row-cols-1 row-cols-md-2 g-3">
           <div className="col">
             <div
@@ -112,6 +112,59 @@ function HomeBody() {
                   <div className="info">
                     <span className="lead">Email:</span>
                     <span className="lead">Loremipsum@gmail.com</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div className="container text-center mb-5">
+        <div className="row row-cols-1 row-cols-md-2 g-3">
+          <div className="col">
+            <div
+              className="p-3"
+              style={{ backgroundColor: "white", borderRadius: "10px" }}
+            >
+              <div>
+                <h5>Permanent Address</h5>
+                <div class="col-sm-8 text-start">
+                  <div className="info">
+                    <span className="lead">Address:</span>
+                    <span className="lead">
+                      Lorem ipsum dolor sit amet, adipisicing elit. Aliquid,
+                      pariatur!
+                    </span>
+                  </div>
+
+                  <div className="info">
+                    <span className="lead">State & LGA:</span>
+                    <span className="lead">Lorem ipsum dolor sit.</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className="col">
+            <div
+              className="p-3"
+              style={{ backgroundColor: "white", borderRadius: "10px" }}
+            >
+              <div>
+                <h5>Bedspace Address</h5>
+                <div class="col-sm-8 text-start">
+                  <div className="info">
+                    <span className="lead">Address:</span>
+                    <span className="lead">
+                      Block E1, Ground Floor, Room 106, Bed No 1 (Lower Bunk)
+                    </span>
+                  </div>
+
+                  <div className="info">
+                    <span className="lead">Hall:</span>
+                    <span className="lead">Angola Hall</span>
                   </div>
                 </div>
               </div>
