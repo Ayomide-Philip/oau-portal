@@ -62,19 +62,36 @@ function HomeBody() {
         </div>
       </div>
 
-      <div class="container text-center">
-        <div class="row row-cols-md-2 row-cols-1 g-5 g-md-3">
-          <div
-            class="col"
-            style={{ backgroundColor: "white", borderRadius: "10px" }}
-          >
-            <div class="p-3">Row column 1</div>
+      <div className="container text-center">
+        <div className="row row-cols-1 row-cols-md-2 g-3">
+          <div className="col">
+            <div
+              className="p-3"
+              style={{ backgroundColor: "white", borderRadius: "10px" }}
+            >
+              <div>
+                <h4>Student Contact Information</h4>
+                <div class="col-sm-8 text-start">
+                  <div className="info">
+                    <span className="lead">Contact No.:</span>
+                    <span className="lead">12345678901</span>
+                  </div>
+
+                  <div className="info">
+                    <span className="lead">Email Address:</span>
+                    <span className="lead">a1234567@gmail.com</span>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
-          <div
-            class="col"
-            style={{ backgroundColor: "white", borderRadius: "10px" }}
-          >
-            <div class="p-3">Row column 2</div>
+          <div className="col">
+            <div
+              className="p-3"
+              style={{ backgroundColor: "white", borderRadius: "10px" }}
+            >
+              Row column 2
+            </div>
           </div>
         </div>
       </div>
