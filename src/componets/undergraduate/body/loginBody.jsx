@@ -24,7 +24,7 @@ function LoginBody() {
   }
 
   return (
-    <div className="main-container">
+    <div className="main-container"  style={{ marginTop: "110px" }}>
       <div className="background-image">
         <div className="card mx-auto my-5">
           <img
