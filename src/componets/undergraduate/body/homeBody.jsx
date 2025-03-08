@@ -7,7 +7,7 @@ function HomeBody() {
       style={{ marginBottom: "50px" }}
     >
       <div
-        class="container text-center mb-5"
+        class="container text-center  mb-5"
         style={{
           backgroundColor: "white",
           borderRadius: "10px",
@@ -166,7 +166,6 @@ function HomeBody() {
                     <span className="lead">Hall:</span>
                     <span className="lead">Angola Hall</span>
                   </div>
-                  
                 </div>
               </div>
             </div>
